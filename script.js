@@ -5,7 +5,7 @@ document.querySelector('.check').onclick = function(){
     document.querySelector('.rendom p').innerHTML = value;
 
     let count = 0;
-    let data = count+1;
+    let data = count++;
 
     if(num > value){
         document.querySelector('.p1').innerHTML = "⬇️ Too Low!";
